@@ -2,7 +2,7 @@ var config = {
     entry: './main.js',
      
     output: {
-       path:'/',
+       path:'/home/salim/Example/build/',
        filename: 'index.js',
     },
      
