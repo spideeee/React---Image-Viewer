@@ -4,9 +4,9 @@ class ImageView extends React.Component{
     render(){
         return (
             <div id="modal">
-                <div id="title">Abcd</div>
-                <div id="close">×</div>
-                <img src={this.props.src}/>
+                <div id="title">{this.props.data.name}</div>
+                <div id="close" onClick={this.props.onClose}>×</div>
+                <img src={this.props.data.src}/>
             </div>
         );
     }

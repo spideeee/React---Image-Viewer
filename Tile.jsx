@@ -35,7 +35,7 @@ class Tile extends React.Component{
         }
         const type = this.state.type;
         const name = this.state.name;
-        const src = this.state.imgSrc;
+        const src = this.props.imgSrc;
         return (
             <div 
                 ref={(elem)=>{this.elem = elem}}
